@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "importCSV": "node csvScript.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^5.18.0",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "fast-csv": "^4.3.6",
+    "node-fetch-commonjs": "^3.1.1",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.1",
+    "uuid": "^8.3.2"
+  }
+}
